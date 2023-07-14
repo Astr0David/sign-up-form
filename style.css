@@ -8,9 +8,8 @@
 .container {
     background-image: url("assets/background.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: auto;
-    /* background-attachment: fixed; */
+    background-size: 100vh;
+    background-position: center;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -20,13 +19,14 @@
     flex-basis: 34%;
     display: flex;
     justify-content:flex-end;
+    background: transparent;
 }
 
 .imagecontainer {
     position: absolute;
     top: 20%;
     max-width: 400px;
-    width: 100%;
+    width: auto;
     margin: 0 auto;
 
 }
@@ -39,6 +39,5 @@
 .signuparea {
     flex-grow: 1;
     background-color: white;
-    box-shadow: -5px 0px 15px rgba(0,0,0,0.8);
-    
+    box-shadow: -5px 0px 10px rgba(0,0,0,0.8);
 }
