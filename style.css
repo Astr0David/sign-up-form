@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.backgroundarea {
+    flex-basis: 34%;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.imagecontainer {
+    position: absolute;
+    top: 20%;
+}
+
+.signuparea {
+    flex-grow: 1;
+    background-color: white;
+    box-shadow: -5px 0px 15px rgba(0,0,0,0.8);
+    
+}
