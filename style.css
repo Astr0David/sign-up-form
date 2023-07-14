@@ -9,6 +9,8 @@
     background-image: url("assets/background.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: auto;
+    /* background-attachment: fixed; */
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -23,6 +25,15 @@
 .imagecontainer {
     position: absolute;
     top: 20%;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.imagecontainer img {
+    max-width: 100%;
+    height: auto;
 }
 
 .signuparea {
