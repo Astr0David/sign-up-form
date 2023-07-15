@@ -75,7 +75,7 @@ body {
 
 .container .right-side .form-section .form :where(.input-box input, select-box) {
     position: relative;
-    height: 33px;
+    height: 38px;
     width: 100%;
     outline: none;
     border: 1px solid #bbb;
