@@ -127,10 +127,9 @@ body {
 }
 
 .container .right-side .form-section .form .select-box select {
-    height: 100%;
+    height: 38px;
     width: 100%;
     min-width: 130px;
-    height: 100%;
     outline: none;
     border: 1px solid #bbb;
     border-radius: 5px;
